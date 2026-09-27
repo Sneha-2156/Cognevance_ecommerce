@@ -110,5 +110,3 @@ future expiry, any CVC) to complete a checkout.
 - For production, prefer a Stripe **webhook** (`payment_intent.succeeded`) over
   the `/api/payments/confirm` endpoint used here, since it doesn't depend on the
   customer's browser staying online to report success.
-- [ ] Deploy frontend + backend, add live links here
-- [ ] Email the repo link + your experience/review to support@cognevance.online
